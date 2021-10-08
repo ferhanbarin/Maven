@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
 
-public class C02_BeforeNotasyonu {
+public class C02_BeforeClassNotasyonu {
 
     static WebDriver driver;
     WebElement searchBox = driver.findElement(By.id("twotabsearchtextbox"));
