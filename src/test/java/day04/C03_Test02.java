@@ -33,7 +33,7 @@ public class C03_Test02 {
 
         driver.get("http://zero.webappsecurity.com/"); // 1. http://zero.webappsecurity.com sayfasina gidin.
 
-        driver.findElement(By.id("signin_button")).click(); // 2. Signin buttonuna tiklayin.
+        driver.findElement(By.id("signin_button")).click(); // 2. Sign in buttonuna tiklayin.
 
         driver.findElement(By.xpath("//input[@id='user_login']")).sendKeys("username"); // 3. Login alanine  "username" yazdirin.
 
